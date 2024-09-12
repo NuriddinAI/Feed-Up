@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.navHeader{
+    width: 100%;
+    height: 80px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.navHeaderLogo{
+    width: 120px;
+}
+
+.navHeaderItems{
+    margin-top: 30px;
+    
+}   
+
+.navHeaderItem{
+    list-style-type: none;
+}
+
+.navHeaderLink{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight:normal;
+    color: black;
+    margin-right: 100px;
+    padding-left: 10px;   
+}
+
+.navHeaderLink:hover{
+    color: #ffd60a;
+}
+
+.carousel-item img {
+    height: 700px; /* Rasmlarning balandligini sozlash */
+    object-fit: cover; /* Rasmlarni o'lchamga moslashtirish */
+}
+
+
+.mainSectionXitSotuvlar{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+.mainSectionXitSotuvlar img{
+    width: 40px;
+    margin: 0 30px;
+}
+
+.mainSectionXitSotuvlar h2{
+    font-weight: bold;
+}
+
+.xitSotuvlar{
+    display: flex;
+    justify-content: center;
+}
+
+
+.xitSotuvlarBox{
+    width: 400px;
+    margin: 0 15px;
+    height: 580px;
+    border: 1px solid #8d99ae;
+    padding: 40px;
+}
+
+.xitSotuvlarBox img{
+    width: 280px;
+    height: 220px;
+    display: block;
+    margin: 0 auto;
+}
+
+.xitSotuvlarBox h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.xitSotuvlarBox p{
+    color: #778da9;
+}
+
+.xitSotuvlarBox h4{
+    font-family: Unbounded,sans-serif!important;
+    font-weight: 700;
+    padding-top: 16px;.products {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      
+      .products h2 {
+        font-size: 2rem;
+        text-align: left;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 20px;
+      }
+      
+      .product-card {
+        border: 1px solid #e0e0e0;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .product-card img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .product-card h3 {
+        font-size: 1.2rem;
+        margin: 10px 0;
+      }
+      
+      .product-card p {
+        font-size: 0.9rem;
+        color: #666;
+      }
+      
+      .product-card span {
+        display: block;
+        margin: 10px 0;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+      
+      .product-card button {
+        background-color: #ffcc00;
+        border: none;
+        padding: 10px;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 100%;
+        font-weight: bold;
+      }
+      
+      .product-card button:hover {
+        background-color: #e6b800;
+      }
+    padding-bottom: 16px;
+    font-size: 30px;
+}
+
+.xitSotuvlarBox button{
+    width: 300px;
+    padding: 12px;
+    display: block;
+    margin: 0 auto;
+    background-color: #ffd60a;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+}
+
+.menu__section_sarlavha{
+    margin-top: 40px;   
+    margin-left: 30px;
+}
+
+.menu__section_sarlavha h2{
+    font-family: Unbounded,sans-serif!important;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 36px;
+}
+
+
+.menu__section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu__seciton__box{
+    width: 16.666%;
+    height: 150px;
+    border: 1px solid #8d99ae;
+}
+
+.menu__seciton__box img{
+    max-width: 100%;
+    padding-top: 25px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.menu__seciton__box h3{
+    padding-top: 4px;
+    text-align: center;
+}
+
+/* burger qismi */
+
+.productsBurger {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .burgerSarlavhasi{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 20px 0;
+  }
+
+  .burgerLogo{
+    margin-top: 12px;
+    width: 50px;
+    height: 40px;
+    padding: 0 5px;
+  }
+  
+  .burgerSarlavhasi h2 {
+    font-size: 3rem;
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* gap: 20px; */
+  }
+  
+  .product-card {
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 200px; /* Barcha rasmlar bir xil balandlikda bo'ladi */
+    object-fit: cover;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    font-size: 0.9rem;
+    color: #666;
+    min-height: 60px;
+  }
+  
+  .product-card span {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .product-card button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .product-card button:hover {
+    background-color: #e6b800;
+  }
+
+
+  footer{
+    background-color: #2D2D2D;
+  }
+
+  #footer_link{
+    color: white;
+  }
+
+  .contacts{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.phone{
+    padding-left: 50px;
+}
+
+.phone p{
+    color: white;
+}
+
+.phone span{
+    color: white;
+}
+
+.socialMedia{
+    margin-left: 250px;
+    padding: 0 10px;
+}
+
+.socialMedia p{
+    color: white;
+}
+
+.socialMedia a{
+    text-decoration: none;
+    padding-left: 10px;
+}
